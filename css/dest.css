@@ -1,0 +1,582 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #141416;
+}
+
+
+/* --------------------------- NAVBAR ---------------------------*/
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px 20px 200px;
+    background-color: #141416;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    box-shadow: 0 2px 30px #FF8A02;
+
+}
+
+.logo{
+    width:180px;
+    height: auto;
+}
+
+.navbar {
+    padding-right: 20%;
+}
+
+.navbar-2{
+    display: none;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 40px;
+    color: white;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    color: orange;
+}
+
+/* --------------------------- CONTEUDO ---------------------------*/
+
+.container{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    width: 100%;
+    height: 3300px;
+    background-color: #141416;
+}
+
+.dest {
+    padding: 10vw;
+    display: flex;
+    align-items: center;
+    gap: 10vw
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    width: fit-content;
+}
+
+.title .three {
+    position: absolute;
+    font-size: 1.2vw;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    margin: 0;
+    color: white;
+}
+
+.title .one {
+    position: absolute;
+    font-size: 1.2vw;
+    margin-left: 20%;
+    color: white;
+}
+
+
+
+.title-img {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.left p{
+    color: white;
+    font-size: 1vw;
+}
+
+.btn {
+    display: flex;
+    background-color: transparent;
+    border-width:2px;
+    border-style:solid;
+    border-color: #FF8A02;
+    width: 10vw;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+}
+
+
+.btn:hover{
+    background-color: #FF8A02;
+}
+
+.btn p {
+    font-weight: bold;
+    font-size:0.9vw;
+}
+
+.right .dest-img1{
+    width: 20vw;
+    height: auto;
+}
+
+/* --------------------------- FOOTER ---------------------------*/
+
+footer {
+    text-align: center;
+    background-color: #141416;
+    color: white;
+    font-weight: bold;
+    font-size: 4vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.pneus{
+    padding: -5;
+    height: 5vw;
+    background-color: transparent;
+    position: relative;
+}
+
+.img-pneus {
+    position: absolute;
+    margin-left: -50%;
+    width: 100%;
+    height: 100%;
+}
+
+.footer-container{
+    width: 90%;
+    height: 100%;
+    padding: 1vw 2vw 2vw 2vw;
+    background-color: #141416;
+    display: flex;
+    flex-direction: row;
+    gap: 6vw;
+}
+
+.map{
+    width: 50vw;
+    height: 20vw;
+    background-color: white;
+}
+
+.dts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dts h1{
+    color: #FF8A02;
+    font-size: 1vw;
+    text-align: left;
+}
+
+.dts p{
+    font-size: 0.8vw;
+    font-weight: 100;
+    padding: 1vw 0 0.5vw 0;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.yay{
+    display: flex;
+    flex-direction: row;
+    gap: 6vw;
+}
+
+.outros{
+    display: flex;
+    flex-direction: column;
+    gap: 6vw
+}
+
+.contactos{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    text-align: left;
+}
+
+.cont-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6vw;
+}
+
+.contactos p{
+    font-size: 0.8vw;
+    font-weight: 100;
+}
+
+.contactos h1{
+    font-size: 1vw;
+    color: #FF8A02;
+}
+
+.text-row{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.patrocinadores{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: flex-start;
+}
+
+.patrocinadores h1{
+    font-size: 1vw;
+    color: #FF8A02;
+}
+
+.prat{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+}
+
+.prat-img1, .prat-img2{
+    width: 5vw;
+    height: 1.5vw;
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px) {
+
+    /* --------------------------- BANNER ---------------------------*/
+
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0 100px 0 100px;
+        background-color: #141416;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+    
+    .logo{
+        width: 20vw;
+        height: 10vw;
+    }
+    
+    .navbar {
+        display: none;
+    }
+
+    .navbar-2 {
+        padding-right: 10%;
+        overflow: hidden;
+        display: block;
+    }
+
+    .navbar-2 a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .dropdown .dropbtn {
+        font-size: 30px;  
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+    }
+
+    .dropdown {
+        margin-right: 100px;
+        overflow: hidden;
+    }
+    
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #141416;
+        border: #FF8A02;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+      
+    .dropdown-content a {
+        float: none;
+        color: white;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+      
+    .dropdown-content a:hover {
+        background-color: #000200;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+/* --------------------------- CONTEUDO ---------------------------*/
+
+.container{
+    margin-top: 110px;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    width: 100%;
+    height: auto;
+    background-color: #141416;
+}
+
+.dest {
+    padding: 10vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10vw
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 2vw
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    width: fit-content;
+}
+
+.title .three {
+    position: absolute;
+    font-size: 20px;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%); 
+    margin: 0;
+    color: white;
+}
+
+.title .one {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 13%;
+    color: white;
+}
+
+
+.title-img {
+    position: relative;
+    width: 70%;
+    height: auto;
+}
+
+.left p{
+    color: white;
+    font-size: 16px;
+}
+
+.btn {
+    display: flex;
+    background-color: transparent;
+    border-width:2px;
+    border-style:solid;
+    border-color: #FF8A02;
+    width: 30vw;
+    align-items: center;
+    justify-content: center;
+    padding: 1vw;
+}
+
+
+.btn:hover{
+    background-color: #FF8A02;
+}
+
+.btn p {
+    font-weight: bold;
+    font-size:16px;
+}
+
+.right .dest-img1{
+    width: 50vw;
+    height: auto;
+}
+
+
+
+/* --------------------------- FOOTER ---------------------------*/
+
+footer {
+    text-align: center;
+    background-color: #141416;
+    color: white;
+    font-weight: bold;
+    font-size: 4vw;
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+}
+
+.footer-container{
+    width: 90%;
+    height: 100%;
+    padding: 1vw 2vw 2vw 2vw;
+    background-color: #141416;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 6vw;
+}
+
+.map{
+    width: 80vw;
+    height: 40vw;
+    background-color: white;
+}
+
+
+
+.dts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.dts h1{
+    color: #FF8A02;
+    font-size: 3vw;
+    text-align: left;
+}
+
+.dts p{
+    font-size: 2vw;
+    font-weight: 100;
+    padding: 1vw 0 0.5vw 0;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.yay{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+}
+
+.outros{
+    display: flex;
+    flex-direction: column;
+    gap: 6vw
+}
+
+.contactos{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    text-align: left;
+}
+
+.cont-text{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vw;
+}
+
+.contactos p{
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+
+.contactos h1{
+    font-size: 3vw;
+    color: #FF8A02;
+}
+
+.text-row{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5vw;
+    justify-content: center;
+    align-items: center;
+}
+
+.patrocinadores{
+    display: flex;
+    flex-direction: column;
+    gap: 1vw;
+    align-items: flex-start;
+}
+
+.patrocinadores h1{
+    font-size: 3vw;
+    color: #FF8A02;
+}
+
+.prat{
+    display: flex;
+    flex-direction: row;
+    gap: 2vw;
+}
+
+.prat-img1, .prat-img2{
+    width: 10vw;
+    height: 4vw;
+
+}
+}
