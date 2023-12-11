@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drift Touge Semide</title>
+    <link rel="stylesheet" href="css/conv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">   
+</head>
+<body>
+    <header>
+        <a href="home.html" class="home"><img src="images/logo.png" class= "logo" alt="logo"></a>
+        <nav class="navbar" id="nav-one">
+            <a href="sobre.html">Sobre</a>
+            <a href="dest.html">Destaques</a>
+            <a href="conv.html">Convidados</a>
+            <a href="merch.html">Merch</a>
+            <a href="eventos.html">Eventos +</a>
+        </nav>
+
+        <nav class="navbar-2" id="nav-two">
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fa fa-navicon"></i></button>
+                <div class="dropdown-content">
+                    <a href="sobre.html">Sobre</a>
+                    <a href="dest.html">Destaques</a>
+                    <a href="conv.html">Convidados</a>
+                    <a href="merch.html">Merch</a>
+                    <a href="eventos.html">Eventos +</a>
+                </div>
+              </div> 
+        </nav>
+    </header>
+
+    <div class="container">
+
+        
+<!-------------------------------BANNER------------------------------->
+
+        <div class="banner">
+            <img class="banner-img" src="images/bannerconv..jpg">
+            <div class="texto">
+                <h1>Convidados</h1>
+                <p>Lista de convidados: pilotos e artistas</p>
+            </div>
+        </div>
+
+
+<!-------------------------------TITLE------------------------------->
+<div class="conv-div">
+        <div class="conv-title">
+            <img class="conv-img-title" src="images/title-2.png">
+            <h1 class="title-h1">Pilotos</h1>
+        </div>
+
+        
+<!-------------------------------CONVIDADOS BOX------------------------------->
+        <div class="convidados">
+            <div class="box-container">
+                <div class="row">
+                    <div class="box">
+                        <div class="conv-slider">
+                            <div class="slider" id="slider1">
+                                <img class="slider-img" src="images/thomaskw.jpeg">
+                                <img class="slider-img" src="images/thomaskwcar.jpg">
+                            </div>
+                            <div class="arrows">
+                                <button class="prev-button" onclick="prevSlide(1)"><i class="fa fa-angle-left"></i></button>
+                                <div id="circle1_1" class="circle1"></div>
+                                <div class="space"></div>
+                                <div id="circle2_1" class="circle2"></div>
+                                <button class="next-button" onclick="nextSlide(1)"><i class="fa fa-angle-right"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="conv-text">
+                            <p class="text-bold">Thomas Moss</p>
+                            <br><br>
+                            <p class="text-regular">Observem o desempenho elegante do piloto no drift, fica evidente que cada curva é uma tela em branco onde ele pinta a sua arte, controlando com maestria cada derrapagem.</p>
+                            <br><br>
+                            <p class="text-bold">Carro: BMW</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="box">
+                        <div class="conv-slider">
+                            <div class="slider" id="slider2">
+                                <img class="slider-img" src="images/joelvidal.jpeg">
+                                <img class="slider-img" src="images/joelvidalcar.jpg">
+                            </div>
+                            <div class="arrows">
+                                <button class="prev-button" onclick="prevSlide(2)"><i class="fa fa-angle-left"></i></button>
+                                <div id="circle1_2" class="circle1"></div>
+                                <div class="space"></div>
+                                <div id="circle2_2" class="circle2"></div>
+                                <button class="next-button" onclick="nextSlide(2)"><i class="fa fa-angle-right"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="conv-text">
+                            <p class="text-bold">Joel Vidal</p>
+                            <br><br>
+                            <p class="text-regular">Os espectadores se maravilham com a audácia do piloto de drift, cujo rugido do motor e as derrapagens precisas criam uma atmosfera eletrizante, deixando uma nuvem de fumo e empolgação no ar.</p>
+                            <br><br>
+                            <p class="text-bold">Carro: BMW</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="box">
+                        <div class="conv-slider">
+                            <div class="slider" id="slider3">
+                                <img class="slider-img" src="images/brunomianda.jpeg">
+                                <img class="slider-img" src="images/brunomirandacar.jpeg">
+                            </div>
+                            <div class="arrows">
+                                <button class="prev-button" onclick="prevSlide(3)"><i class="fa fa-angle-left"></i></button>
+                                <div id="circle1_3" class="circle1"></div>
+                                <div class="space"></div>
+                                <div id="circle2_3" class="circle2"></div>
+                                <button class="next-button" onclick="nextSlide(3)"><i class="fa fa-angle-right"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="conv-text">
+                            <p class="text-bold">Bruno Miranda</p>
+                            <br><br>
+                            <p class="text-regular">A plateia encanta se ao testemunhar o piloto de drift a transformar a pista num palco dinâmico, combinando técnica e ousadia para proporcionar momentos emocionantes.</p>
+                            <br><br>
+                            <p class="text-bold">Carro: BMW</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="box">
+                        <div class="conv-slider">
+                            <div class="slider" id="slider4">
+                                <img class="slider-img" src="images/daviddinis.jpeg">
+                                <img class="slider-img" src="images/daviddiniscar.jpeg">
+                            </div>
+                            <div class="arrows">
+                                <button class="prev-button" onclick="prevSlide(4)"><i class="fa fa-angle-left"></i></button>
+                                <div id="circle1_4" class="circle1"></div>
+                                <div class="space"></div>
+                                <div id="circle2_4" class="circle2"></div>
+                                <button class="next-button" onclick="nextSlide(4)"><i class="fa fa-angle-right"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="conv-text">
+                            <p class="text-bold">David Dinis</p>
+                            <br><br>
+                            <p class="text-regular">Nas bancadas, a participação do piloto de drift é destacada pela fusão impressionante de velocidade e controle, deixando todos boquiabertos com suas manobras ousadas.</p>
+                            <br><br>
+                            <p class="text-bold">Carro: BMW</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="box">
+                        <div class="conv-slider">
+                            <div class="slider" id="slider5">
+                                <img class="slider-img" src="images/josemagalhaes.jpg">
+                                <img class="slider-img" src="images/josemagalhaescar.jpeg">
+                            </div>
+                            <div class="arrows">
+                                <button class="prev-button" onclick="prevSlide(5)"><i class="fa fa-angle-left"></i></button>
+                                <div id="circle1_5" class="circle1"></div>
+                                <div class="space"></div>
+                                <div id="circle2_5" class="circle2"></div>
+                                <button class="next-button" onclick="nextSlide(5)"><i class="fa fa-angle-right"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="conv-text">
+                            <p class="text-bold">José Magalhães</p>
+                            <br><br>
+                            <p class="text-regular">Os observadores notam a inovação do piloto de drift, experimentando novas abordagens e técnicas para elevar ainda mais o nível deste esporte emocionante.</p>
+                            <br><br>
+                            <p class="text-bold">Carro: BMW</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="box">
+                        <div class="conv-slider">
+                            <div class="slider" id="slider6">
+                                <img class="slider-img" src="images/marcblaco.jpg">
+                                <img class="slider-img" src="images/marcblacocar.jpeg">
+                            </div>
+                            <div class="arrows">
+                                <button class="prev-button" onclick="prevSlide(6)"><i class="fa fa-angle-left"></i></button>
+                                <div id="circle1_6" class="circle1"></div>
+                                <div class="space"></div>
+                                <div id="circle2_6" class="circle2"></div>
+                                <button class="next-button" onclick="nextSlide(6)"><i class="fa fa-angle-right"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="conv-text">
+                            <p class="text-bold">Marc Blanco</p>
+                            <br><br>
+                            <p class="text-regular">Sob as luzes do evento de drift, a performance noturna do piloto é uma experiência sensorial, com o som dos pneus cantando e o visual de derrapagens controladas iluminadas pelo brilho das luzes.</p>
+                            <br><br>
+                            <p class="text-bold">Carro: BMW</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="box">
+                        <div class="conv-slider">
+                            <div class="slider" id="slider7">
+                                <img class="slider-img" src="images/maritooliveira.jpg">
+                                <img class="slider-img" src="images/maritoloiveiracar.jpeg">
+                            </div>
+                            <div class="arrows">
+                                <button class="prev-button" onclick="prevSlide(7)"><i class="fa fa-angle-left"></i></button>
+                                <div id="circle1_7" class="circle1"></div>
+                                <div class="space"></div>
+                                <div id="circle2_7" class="circle2"></div>
+                                <button class="next-button" onclick="nextSlide(7)"><i class="fa fa-angle-right"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="conv-text">
+                            <p class="text-bold">Marito Oliveira</p>
+                            <br><br>
+                            <p class="text-regular">Como parte de uma equipe coordenada, o piloto de drift é elogiado pela sincronia perfeita com seus colegas, criando uma experiência única de harmonia e destreza na pista.</p>
+                            <br><br>
+                            <p class="text-bold">Carro: BMW</p>
+                        </div>
+                    </div>
+
+                    
+                    <div class="box">
+                        <div class="conv-slider">
+                            <div class="slider" id="slider8">
+                                <img class="slider-img" src="images/samuelcacoilo.png">
+                                <img class="slider-img" src="images/samuelcacoilocar.jpg">
+                            </div>
+                            <div class="arrows">
+                                <button class="prev-button" onclick="prevSlide(8)"><i class="fa fa-angle-left"></i></button>
+                                <div id="circle1_8" class="circle1"></div>
+                                <div class="space"></div>
+                                <div id="circle2_8" class="circle2"></div>
+                                <button class="next-button" onclick="nextSlide(8)"><i class="fa fa-angle-right"></i></button>
+                            </div>
+                        </div>
+
+                        <div class="conv-text">
+                            <p class="text-bold">Samuel Cacoilo</p>
+                            <br><br>
+                            <p class="text-regular">A tradição do drift clássico é mantida viva pelo piloto, que recebe reconhecimento pela maneira como honra as raízes do desporto, ao mesmo tempo em que adiciona seu toque pessoal ao espetáculo automotivo.</p>
+                            <br><br>
+                            <p class="text-bold">Carro: BMW</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="js/conv.js"></script>
+</div>
+<!-------------------------------TITLE------------------------------->
+    <div class="art-title">
+        <img class="art-img-title2" src="images/title-3.png">
+        <h1 class="title2-h1">Artistas</h1>
+    </div>
+<!-------------------------------TITLE------------------------------->
+
+
+    <div class="artists">
+        <div class="art-container">
+
+            <div class="art-box">
+                <img class="art-img" src="images/dj.piston.jpeg">
+                <br>
+                <h1>DJ Python</h1>
+            </div>
+
+            <div class="art-box">
+                <img class="art-img" src="images/bandaanarkia.jpg">
+                <br>
+                <h1>Banda Anarkia</h1>
+            </div>
+            
+            <div class="art-box">
+                <img class="art-img" src="images/bandasense.png">
+                <br>
+                <h1>Banda Sense</h1>
+            </div>
+            
+            <div class="art-box">
+                <img class="art-img" src="images/tekos.jpg">
+                <br>
+                <h1>Tekos</h1>
+            </div>
+            
+        </div>
+    </div>
+
+<!-------------------------------PILOTAR------------------------------->
+
+        <div class="pilotar">
+            <h1>Gostarias de pilotar no Drift Touge Semide?</h1>~
+            <p>Estamos sempre à procura de novos pilotos que queiras experimentar as famosas curvas de Semide!</p>
+            <p>Se estiveres interessado/a, contacta-nos! </p>
+            <br><br>
+
+            <a href="pilote.html" style="text-decoration: none;"><div class="btn">
+                <p>Inscreve-te</p>
+            </div></a>
+        </div>
+        <br>
+
+    </div>
+
+    
+    <footer>
+        <div class="pneus">
+            <img src="images/Pneu.png" class="img-pneus">
+        </div>        <div class="footer-container">
+            <div class="map"><iframe class="map-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6098.535148827537!2d-8.347523184826878!3d40.158595842065914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd22f065ed8034bb%3A0xbf4650224f6db431!2sEM568%2C%20Semide!5e0!3m2!1spt-PT!2spt!4v1699019712924!5m2!1spt-PT!2spt" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            <div class="yay">
+                <div class="dts">
+                    <h1>Drift Touge Semide</h1>
+                    <a href="sobre.html"><p>Sobre</p></a>
+                    <a href="dest.html"><p>Destaques</p></a>
+                    <a href="conv.html"><p>Convidados</p></a>
+                    <a href="merch.html"><p>Merch</p></a>
+                    <a href="eventos.html"><p>+Eventos</p></a>
+                    <a href="compre.html"><p>Compre uma Curva</p></a>
+                    <a href="pilote.html"><p>Pilotar em Semide</p></a>
+                </div>
+                <div class="outros">
+                    <div class="contactos">
+                        <h1>Contacte-nos</h1>
+                        <div class="cont-text">
+                            <div class="text-row"><i class="fa fa-facebook-f" style="font-size:1vw"></i><p>drifttoughesemide</p></div>
+                            <div class="text-row"><i class="fa fa-instagram" style="font-size:1vw"></i><p>drifttoughesemide</p></div>
+                        </div>
+                    </div>
+                    <div class="patrocinadores">
+                        <h1>Patrocinadores</h1>
+                        <div class="prat">
+                            <img class="prat-img1" src="images/logomirandadocorvo.png">
+                            <img class="prat-img2" src="images/logoriodevide.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
