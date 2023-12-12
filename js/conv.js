@@ -4,8 +4,7 @@ function prevSlide(sliderNumber) {
     const circle2 = document.getElementById(`circle2_${sliderNumber}`);
 
     const slideWidth = slider.clientWidth;
-    const slideDuration = 500; // Adjust this value as needed
-
+    const slideDuration = 500;
     let currentIndex = Math.floor(slider.scrollLeft / slideWidth);
 
     if (currentIndex > 0) {
@@ -52,7 +51,7 @@ function nextSlide(sliderNumber) {
     const circle2 = document.getElementById(`circle2_${sliderNumber}`);
 
     const slideWidth = slider.clientWidth;
-    const slideDuration = 500; // Adjust this value as needed
+    const slideDuration = 500;
 
     let currentIndex = Math.floor(slider.scrollLeft / slideWidth);
 
